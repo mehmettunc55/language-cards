@@ -16,7 +16,7 @@ const Card = () => {
                             <img src={card.img} alt={card.name}/>
                         </div>
 
-                        <div onClick={(setIsV)} className="languageName">
+                        <div className="languageName">
                             <h4>{card.name}</h4>
                         </div>
 
