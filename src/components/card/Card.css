@@ -1,0 +1,90 @@
+body{
+    background-color: blueviolet;
+}
+.big-container{
+    position:relative;
+    left:700px;
+    background-color:orangered;
+    width:500px;
+    margin:100px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 30px;
+    margin-left: 150px;
+    font-weight: bold;
+    color: white;
+}
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white ;
+    flex-wrap:wrap; 
+}
+
+
+
+.cards{
+    
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    width:150px;
+    height:75px; 
+    justify-content: center;
+   
+}
+
+.cards:hover{
+    border: 3px solid rgb(41, 113, 207);
+}
+
+
+
+.languageName{
+    position:relative;
+    color:black;
+    text-align: center;
+    bottom:-30px;
+    font-size: 1.5rem;
+}
+
+
+.cards img{
+    position: absolute;
+    left:60px;
+    object-fit: cover;
+    height: 5vh;
+    width: 8vh;
+    padding:5px;
+}
+
+.cards img:hover{
+    width: 40%;
+    height: 60%;
+    bottom:30px;
+}
+
+.card-options{
+    z-index: -1;
+    position:absolute;
+    color:black;
+    top:5px;
+    left:5px;
+    font-weight: bold;
+}
+
+.card-options:active{
+    z-index: 1;
+}
